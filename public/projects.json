@@ -1,7 +1,7 @@
 [
     {
         "_id": 1,
-        "name": "Learning School",
+        "name": "LEARNING SCHOOL",
         "live_link": "https://lschool-223b1.web.app/",
         "git_client": "https://github.com/programming-hero-web-course1/b712-summer-camp-client-side-raju720190r",
         "git_server": "https://github.com/programming-hero-web-course1/b7a12-summer-camp-server_side-raju720190r",
@@ -13,7 +13,7 @@
     },
     {
         "_id": 2,
-        "name": "Unique Toy",
+        "name": "UNIQUE TOY",
         "live_link": "https://toys-store-92729.web.app/",
         "git_client": "https://github.com/programming-hero-web-course-4/b7a11-toy-marketplace-client-side-raju720190r",
         "git_server": "https://github.com/programming-hero-web-course-4/b7a11-toy-marketplace-server-side-raju720190r",

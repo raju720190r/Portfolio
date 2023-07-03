@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from '@emailjs/browser';
-import Swal from "sweetalert2";
-import { FaEnvelope,FaPhoneAlt,FaMapMarkerAlt} from 'react-icons/fa';
+import Swal from "sweetalert2"
 
 const Contact = () => {
 
@@ -73,23 +72,23 @@ const Contact = () => {
                     </div>
                 </form>
             </div>
-            <div className="px-5 py-20 grid md:grid-cols-3 gap-10">
+            <div className="px-5 py-20 text-center grid md:grid-cols-3 gap-10">
                 <div className="text-center">
                     <i class="fa-solid fa-paper-plane text-xl text-info"></i>
                     <h3 className="text-xl  flex items-center mt-3">
-                        <a href="mailto:minhazur.akash1@gmail.com">
-                          <FaEnvelope/>  mdrajuahmmed72018@gmail.com
+                        <a href="mailto:mdrajuahmmed72018@gmail.com">
+                            mdrajuahmmed72018@gmail.com
                         </a>
                     </h3>
                 </div>
                 <div className="text-center">
                     <i class="fa-solid fa-location-dot text-xl text-info"></i>
-                    <h3 className="text-xl flex items-center mt-3"><span className="mr-3"><FaMapMarkerAlt/></span>Jamalpur,Bangladesh</h3>
+                    <h3 className="text-xl flex items-center mt-3"><span className="mr-3"></span>Jamalpur,Bangladesh</h3>
                 </div>
                 <div className="text-center">
                     <i class="fa-solid fa-phone-flip text-xl text-info"></i>
                     <h3 className="text-xl flex mt-3">
-                        <a href="tel:+8801778613295"><FaPhoneAlt></FaPhoneAlt>+8801984139733</a>
+                        <a href="tel:+8801984139733">+8801984139733</a>
                     </h3>
                 </div>
             </div>

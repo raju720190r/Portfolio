@@ -11,7 +11,7 @@ import About from './Pages/About.jsx';
 import Resume from './Pages/Home/Resume.jsx';
 import Contact from './Pages/Contact.jsx';
 import Portfolio from './Pages/Portfolio/Portfolio.jsx';
-import ProjectDetails from './Pages/Portfolio/ProjectDetails.jsx';
+
 
 const router = createBrowserRouter([
   {
@@ -23,23 +23,19 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "portfolio",
-        element: <Portfolio/>
-      },
-      {
-     path: "projectDetails",
-     element:<ProjectDetails/>
-      },
-      {
-        path:"resume",
-        element:<Resume/>
-      },{
-        path:"contact",
-        element:<Contact/>
+        path:"portfolio",
+        element:<Portfolio/>
+      }
+      ,{
+        path: "resume",
+        element: <Resume />
+      }, {
+        path: "contact",
+        element: <Contact />
       },
       {
         path: "about",
-        element: <About/>
+        element: <About />
       },
 
     ]
